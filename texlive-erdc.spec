@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/erdc
+# catalog-date 2009-11-09 22:14:03 +0100
+# catalog-license lppl
+# catalog-version 1.1
 Name:		texlive-erdc
 Version:	1.1
 Release:	1
@@ -54,6 +60,7 @@ Corps of Engineers, Engineer Research and Development Center,
 %doc %{_texmfdistdir}/source/latex/erdc/Makefile
 %doc %{_texmfdistdir}/source/latex/erdc/erdc.dtx
 %doc %{_texmfdistdir}/source/latex/erdc/erdc.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -64,3 +71,5 @@ Corps of Engineers, Engineer Research and Development Center,
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
