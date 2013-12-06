@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-erdc
 Version:	1.1
-Release:	3
+Release:	4
 Summary:	Style for Reports by US Army Corps of Engineers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/erdc
