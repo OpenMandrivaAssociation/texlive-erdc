@@ -1,6 +1,6 @@
 Name:		texlive-erdc
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Style for Reports by US Army Corps of Engineers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/erdc
