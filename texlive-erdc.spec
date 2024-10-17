@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Style for Reports by US Army Corps of Engineers
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/erdc
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/erdc
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/erdc.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/erdc.doc.r%{version}.tar.xz
